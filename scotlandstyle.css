@@ -1,0 +1,45 @@
+body{
+    font-family: 'Lora', 'Oxygen', sans-serif
+}
+.header{
+    display: flex;
+    padding: 1rem;
+    background-color: #0C1A31;
+    color: #fff;
+    width: 98%;
+    height: 8rem;
+   
+}
+body header div img{
+    height:8rem;
+    width:17rem;
+    position: absolute;
+    right: 3%;
+   
+}
+.navigation {
+    background-color: #183d78;
+    height: 5rem;
+    width: 100%;
+    display:flex;
+    justify-content:left;
+    
+}
+.navigation ul{
+    display: flex;
+    list-style: none;
+}
+.navigation ul li a{
+    color: #fff;
+    padding: 1rem;
+    text-decoration: none;
+    justify-content: center;
+}
+.squad-img{
+    display: flex;
+    justify-content: center;
+    height: 15rem;
+}
+.squad-img img{
+    width:100%;
+}
