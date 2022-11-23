@@ -35,11 +35,13 @@ body header div img{
     text-decoration: none;
     justify-content: center;
 }
-.squad-img{
-    display: flex;
-    justify-content: center;
-    height: 15rem;
-}
 .squad-img img{
-    width:100%;
+position: absolute;
+width: 100%;
+}
+
+.text-block{
+position: absolute;
+color: #fff;
+
 }
